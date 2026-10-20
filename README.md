@@ -10,7 +10,7 @@ In this project, I used Pandas and NumPy to understand the dataset, check for mi
 The dataset was obtained from Kaggle:
 
 **Student Performance Predictions**  
-https://www.kaggle.com/datasets/haseebindata/student-performance-predictions
+https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression
 
 Please refer to the Kaggle dataset page for the original dataset description, licensing information, and any usage conditions.
 
@@ -27,10 +27,10 @@ Please refer to the Kaggle dataset page for the original dataset description, li
 3. Checked for missing values and duplicate rows.
 4. Cleaned the data by handling missing, incorrect, and impossible values.
 5. Calculated basic statistics to understand the data.
-6. Created visualizations to explore student grades and their relationship with study hours and parental support.
+6. Created visualizations to explore student performance and their relationship with study hours and extracurricular activities.
 
 ## Data Cleaning
-I checked the dataset for missing values and duplicate rows. I converted numerical columns to numeric format and treated values that did not make sense, such as negative study hours or attendance outside the 0–100 range, as missing values. I then filled missing values where appropriate and checked the data again.
+I checked the dataset for missing values and duplicate rows. I converted numerical columns to numeric format and treated values that did not make sense, such as negative study hours or previous scores outside the 0–100 range, as missing values. I then filled missing values where appropriate and checked the data again.
 
 Some checks depend on what each column means. For example, grade limits should match the grading scale used in the dataset.
 
